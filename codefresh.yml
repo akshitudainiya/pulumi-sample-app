@@ -23,7 +23,7 @@ steps:
     image: codefresh/kubectl:1.13.3
     commands: 
       - kubectl config get-contexts
-      - kubectl config use-context "kostis-demo@FirstKubernetes"
+      - kubectl config use-context cpks
   RunPulumi:
     title: Deploying
     stage: deploy
